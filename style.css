@@ -14,6 +14,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding:48px;
 }
 
 button {
@@ -22,7 +23,73 @@ button {
   border: 1px solid #8b5cf6;
   background-color: transparent;
   color: white;
+  gap:12px;
   display: flex;
   align-items: center;
-  
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  padding: 0 48px;
+}
+
+.habits{
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
+
+.habit {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days{
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
+
+.day div {
+  margin-bottom:8px;
+
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  line-height: 125%;
+}
+input{
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+
+  border: 2px solid #27272a;
+  border-radius: 8px;
+
+  background: #18181b;
+}
+
+
+input:checked{
+  background: #8b5cf6;
+  border: 2px solid #a78bfa;
 }
