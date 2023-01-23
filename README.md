@@ -3,7 +3,7 @@ Aplicação para o controle de hábitos feito durante a NLW Setup.
 
                                                       Tecnologias   |    Projeto   |    Layout   |    Licença
 
-License
+
 
 ![Cover](https://user-images.githubusercontent.com/103951910/214032816-3454067e-0092-42dd-976f-e73f97ba1834.png)
 
